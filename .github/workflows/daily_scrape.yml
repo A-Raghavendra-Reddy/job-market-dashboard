@@ -2,8 +2,8 @@ name: Daily Job Scraper
 
 on:
   schedule:
-    - cron: '0 7 * * *'    # runs every day at 7am UTC
-  workflow_dispatch:         # lets you trigger it manually too
+    - cron: '0 7 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install requests pandas python-dotenv python-jobspy openpyxl
 
       - name: Run scraper
         env:
