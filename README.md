@@ -1,7 +1,7 @@
 Live Job Market Analytics Dashboard
 github.com/A-Raghavendra-Reddy/job-market-dashboard
 Python  |  SQLite  |  Power BI  |  GitHub Actions  |  Adzuna API
-Overview
+Overview:
 An automated job market intelligence system that scrapes 150+ UK Data Analyst job postings daily, tracks skill demand trends, salary patterns, and geographic distribution — visualised in a live Power BI dashboard connected directly to GitHub.
 What It Does
 •	Scrapes 150+ Data Analyst job postings daily across the UK using the Adzuna API
@@ -49,7 +49,4 @@ Sample Findings
 •	Power BI demand growing week-on-week across UK postings
 •	Geographic split: ~43% London, ~35% Other UK, ~16% Remote
 •	Average advertised salary: £46,530
-Author
-Raghavendra Reddy Andem
-MSc Advanced Computer Science — Newcastle University
-github.com/A-Raghavendra-Reddy
+
